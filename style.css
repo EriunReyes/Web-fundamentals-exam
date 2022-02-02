@@ -1,0 +1,151 @@
+ * {
+    margin: 0;
+    padding: 0;
+} 
+
+#container {
+    
+    margin: 0 auto;
+}
+
+#navigation {
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    margin: 20px 200px;
+}
+
+#leaf {
+    background-color: turquoise;
+}
+
+
+.nav_links {
+    align-items: center;
+    color: black;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin: 15px 180px;
+    text-decoration: none;
+}
+
+
+.searchbox {
+    font-size: 30px;
+    padding: 0 50px;
+}
+
+#heading {
+    border-top:  solid black;
+    font-size: 50px;
+    margin: 0 265px;
+    padding-top: 10px;
+    text-align: center;
+}
+/* banner */
+#banner{
+    color: white;
+    display: flex;
+    margin: 50px 250px 0px 250px;
+}
+
+#options {
+    align-items: center;
+    background-color: darkcyan;
+    display: flex;
+    font-size: 39px;
+    padding: 48px;
+    text-align: center;
+}
+
+.arrow {
+    height: 35px;
+    margin-top: 50px;
+    width: 50px;
+}
+.arrow2 {
+    height: 30px;
+    width: 50px;
+    
+}
+
+
+#right_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+
+#aloe {
+    align-items: center;
+    background-color: darkcyan;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    padding: 25px;
+}
+
+#plants_wrapper {
+    background-color: lightblue;
+    margin: 20px 250px 20px 250px;
+    padding: 25px 25px; 
+}
+
+#plants_subwrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+
+.plants {
+    border-radius: 50%;
+    width: 150px;
+}
+
+#plantsNames {
+display: flex;
+font-size: 20px;
+justify-content: space-around;
+padding-bottom: 25px;
+}
+
+
+#cookieblock{
+    background-color: azure;
+    display: flex; 
+    align-items: center;
+    margin: -50px 250px;
+    padding: 20px;
+    border: solid black;
+}
+.alert_img {
+    margin-right: 20px;
+}
+
+
+
+.btn {
+    background-color: lightseagreen;
+    border: solid;
+    box-shadow: 5px 5px black;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    padding: 7px 0px;
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+span {
+    color: white;
+}
